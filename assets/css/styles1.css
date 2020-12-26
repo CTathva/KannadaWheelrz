@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  
+  .header {
+      width: 100%;
+      height: 100px;
+      z-index: 100;
+      background-color: rgb(255, 255, 255);
+      position: fixed;
+      box-shadow: 0px 5px 20px rgba(1,1,1,0.3);
+
+  }
+
+body{
+    background-color: white;
+}
+
+.horizontal{
+    float: right;
+    margin-top: -35px;
+}
+
+.horizontal  *{
+
+    display: inline-block;
+    margin-right: 60px;
+
+   
+}
+
+.menu-items{
+    color: black;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.952);
+    border-radius: 15px;
+    height: 40px;
+    font-weight: bold;
+    padding-top: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+.menu-items:hover{
+    color: red;
+    
+}
+.main_container{
+    width: 100%;
+    margin-top: 125px;
+    position: absolute;
+	  padding-bottom: 10px;
+}
+
+
+
+ /* jssor slider loading skin spin css */
+ .jssorl-009-spin img {
+  animation-name: jssorl-009-spin;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+  from {
+      transform: rotate(0deg);
+  }
+
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+
+/*jssor slider bullet skin 132 css*/
+.jssorb132 {position:absolute;}
+.jssorb132 .i {position:absolute;cursor:pointer;}
+.jssorb132 .i .b {fill:#fff;fill-opacity:0.8;stroke:#000;stroke-width:1600;stroke-miterlimit:10;stroke-opacity:0.7;}
+.jssorb132 .i:hover .b {fill:#000;fill-opacity:.7;stroke:#fff;stroke-width:2000;stroke-opacity:0.8;}
+.jssorb132 .iav .b {fill:#000;stroke:#fff;stroke-width:2400;fill-opacity:0.8;stroke-opacity:1;}
+.jssorb132 .i.idn {opacity:0.3;}
+
+.jssora051 {display:block;position:absolute;cursor:pointer;}
+.jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+.jssora051:hover {opacity:.8;}
+.jssora051.jssora051dn {opacity:.5;}
+.jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+
+.table_container
+{
+    box-shadow: 0px 5px 5px rgba(1,1,1,0.3);
+    width: 1350px;
+    margin-bottom: 50px;
+    padding: 10px 5px 15px 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: whitesmoke;
+    position: relative;
+    
+}
+.become_title h3
+{
+	display: block;
+    color: red;
+    margin-top: 10px;
+    margin-left: 15px;
+	font-weight: 1000;
+	padding-top: 10px;
+}
+.border{
+    width: 100px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+    height: 5px;
+    background: red;
+    
+  }
+  .course_boxes
+  {
+      margin-top: 45px;
+      width: 100%;
+  
+      
+  }
+  
+  .course_box
+  {
+      margin-bottom: 50px;
+      width: 225px;
+      border-radius: 15px;
+  
+  }
+  
+  .card
+  {
+      display: block;
+      background: rgb(250, 250, 250);
+      border-radius: 15px;
+  
+      
+      
+  }
+ 
+  .card-img-top
+  {
+      width: 225px;
+      border-radius: 15px;
+      
+  
+  }
+  .card-body
+  {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+  .card-title
+  {
+      margin-top: 5px;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+  .card-title a
+  {
+      font-size: 19px;
+      font-weight: 1000;
+      color: red;
+      
+  }
+
+
+  .card-button
+  {
+      height: 25px;
+      padding-top: 2px;
+      margin-top: -5px;
+      border: red 1px solid;
+      text-align: center;
+  }
+  .card-button a
+  {
+      font-size: 15px;
+      font-weight: 500;
+      color: red;
+      
+  }
+  .card-button:hover
+  {
+    border: red 2px solid;
+    padding-top: 0px;
+
+
+  }
+  
+  
+  .card-title a:hover
+  {
+      color: darkred;
+  }
+  .card-text
+  {    
+      text-align: center;
+      font-size: 18px;
+      font-weight: 800;
+      color:black;
+      margin-top: -12px;
+  }
+  .grid_layout {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 20px;
+    }
+
+    
